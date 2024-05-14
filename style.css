@@ -1,0 +1,27 @@
+:root {
+  --color-font: #a54328;
+  --color-white: #fff;
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Code Pro", sans-serif;
+}
+
+button {
+  font-family: "Source Serif 4", serif;
+  font-size: 2.4rem;
+  background-color: var(--color-font);
+  color: var(--color-white);
+  border: 0px;
+  border-radius: 0.6rem;
+  padding: 0.8rem 1.3rem;
+}
+
+body {
+  font-size: 1.6rem;
+  color: var(--color-font);
+}
